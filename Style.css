@@ -1,0 +1,123 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Light gray */
+    color: #333; /* Dark gray */
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #343a40; /* Dark gray */
+    color: #fff; /* White */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Yellow */
+}
+
+/* Section Styles */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    color: #343a40; /* Dark gray */
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 18px;
+}
+
+/* About Section Styles */
+#about {
+    background-color: #f1f1f1; /* Light gray */
+}
+
+/* Projects Section Styles */
+#projects {
+    background-color: #fff; /* White */
+}
+
+.project {
+    border-bottom: 1px solid #e0e0e0; /* Light gray */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.project:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.project h3 {
+    color: #343a40; /* Dark gray */
+    font-size: 24px;
+}
+
+.project p {
+    color: #666; /* Gray */
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #f1f1f1; /* Light gray */
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+}
