@@ -1,5 +1,5 @@
 function fetchWeatherData(city) {
-    const apiKey = 'b4201261a1594f8aa98161030241402'; //WeatherAPI.com API key used to fetch real-time weather
+    const apiKey = 'b4201261a1594f8aa98161030241402'; //WeatherAPI.com API key used to fetch real-time Weather
     const apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=yes`;
 
     return fetch(apiUrl)
